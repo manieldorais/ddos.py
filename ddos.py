@@ -3,8 +3,8 @@ import requests
 from concurrent.futures import ThreadPoolExecutor
 
 # Define the target IP address and port
-target_ip = '162.214.201.88'
-target_port = '5103'
+target_ip = '127.0.0.1'
+target_port = '8080'
 
 # Define the URL for the requisition
 url = f'http://{target_ip}:{target_port}'  # Replace 'your_endpoint' with the actual endpoint you want to request
